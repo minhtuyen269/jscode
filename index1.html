@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập 1</title>
+</head>
+<body>
+
+</body>
+<script>
+    /*Bài 1: Nhập vào hai số a và b, và kiểm tra xem a có chia hết cho b hay không
+    var a = +prompt("Nhập số A")
+
+    var b = +prompt("Nhập số B")
+
+    if ( a / b == 0){
+        alert("Số A chia chia hết cho B")
+    }else {
+        alert("Số A không chia hết cho B")
+    }
+    */
+
+     /*Bài 2: Nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.
+    var a = +prompt("Nhập số tuổi:")
+
+    if (a >= 15 && a <= 18){
+        alert("Bạn đạt số tuổi vào lớp 10")
+    } else if (a < 15){
+        alert("Bạn chưa đủ tuổi vào lớp 10")
+    }else if (a > 18){
+        alert("Bạn quá tuổi để học lớp 10")
+    }
+    */
+
+    /*Bài 3: Nhập một số nguyên bất kỳ và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn 0
+
+    var a = prompt("Nhập số nguyên bất kỳ :")
+    if (a % 1 != 0) {
+        alert("Số thập phân hay nhap lại")
+    } else {
+        if ( a > 0){
+            alert("Bạn đã nhập số lớn hơn 0")
+        } else if (a < 0){
+            alert("Bạn đã nhập số nhỏ hơn 0")
+        }
+    }
+
+     */
+    /* Bài 6: Giải phương trình bậc 1.
+    a.x - b = 0
+     */
+    /*alert("Tính x: a*x - b = 0")
+    var a = +prompt("Nhập số A")
+    var b = +prompt("Nhập số B")
+    if (a == 0) {
+        if (b == 0) {
+            alert("Phương trình vô số nghiệm")
+        } else {
+            alert("Phương trình vô nghiệm")
+        }
+    }else {
+        var x = -b / a;
+        alert("Kết quả của x là: " + x)
+    }
+
+     */
+
+
+    var a = +prompt("Nhập số A")
+    var b = +prompt("Nhập số B")
+    var c = +prompt("Nhập số C")
+
+    if (a == 0){
+        if (b == 0){
+            if (c == 0){
+                alert("PTVN")
+            }else {
+                alert("PTVN")
+            }
+        }else {
+            x = -c/b
+            alert("Phương trình có nghiệm kép x = :" + x)
+        }
+    }else {
+        dt = b*b - (4*a*c)
+        if (dt < 0){
+            alert("PTVN")
+        }else if (dt > 0){
+            x1 = (-b + sqrt(dt))/2*a;
+            x2 = (-b - sqrt(dt))/2*a;
+            alert("Kết quả x1 là: " + x1 + "Kết quả x2 là: " + x2)
+        }else {
+            x = -b/2*a
+            alert("Kết quả x là: " + a)
+        }
+    }
+</script>
+</html>

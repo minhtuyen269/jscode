@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test for each</title>
+</head>
+<body>
+<p id="demo"></p>
+</body>
+<script>
+  /*Cho biết giá trị biến sum khi thực thi đoạn mã sau ?
+   */
+  let sum = "";
+
+  const numbers = [65, 44, 12, 4];
+
+  numbers.forEach(myFunction);
+
+  document.getElementById("demo").innerHTML = sum;
+
+  function myFunction(item) {
+
+    sum += item;
+
+  }
+</script>
+</html>

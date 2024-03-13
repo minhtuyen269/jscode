@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập vòng lặp for 1</title>
+</head>
+<body>
+<!--
++ In ra 100 chữ 'Hello'.
+    for (i=1;i<=100;i++){
+
+        console.log( i + " hello");
+    }
+
++ Nhập vào N từ prompt. In ra N lần chữ 'Hello'
+    var N = prompt("Nhập số N")
+    for (i=0;i<=N;i++){
+        console.log(i + " = " + "Hello")
+    }
+
++ In ra các số từ 1 đến 1000;
+    for (let i=0;i<=1000;i++){
+        console.log(i);
+    }
+
++ In ra các số từ a đến b;
+    var a = 1;
+    var b = 20;
+    for (i = a;i <= b;i++){
+        console.log(i)
+    }
+
++ In ra các số từ a đến b, mỗi số trong 1 thẻ <h1>;
+html : <h1 id="so"></h1>
+var a = 1;
+    var b = 20;
+
+    const numbers = document.getElementById("so")
+    for (i=a;i<=b;i++){
+        let ab = document.createElement("h1");
+            ab.textContent = i;
+        numbers.appendChild(ab);
+    }
++ In ra các số chẵn từ a đến b;
+    var a = 20;
+    var b = 40;
+
+    for (i=a;i<=b;i++){
+        if (i % 2 == 0){
+            console.log(i);
+
+        }
+        continue;
+    }
+
++ In ra các số từ a đến b số chẵn trong h2, số lẻ trong <h1>;
+HTML : <h1 id="sole"></h1>
+<h1 id="sochan"></h1>
+
+var a = 20;
+    var b = 40;
+
+    for (i=a;i<b;i++)
+        if (i % 2 == 0){
+            document.write("<h2>" + i);
+        }else{
+            document.write("<h1>" + i);
+        }
+
++ Tính tích từ a đến b.
+    var a = 1;
+    var b = 10;
+    var tich = a;
+    for (i=a;i<=b;i++){
+        tich *= i
+        console.log(tich)
+    }
+
++ Tính Tổng các số chia 5 dư 2 từ a đến b.
+var a = 20;
+    var  b = 40;
+    var sum = 0
+    for (i=a;i<=b;i++){
+        if (i % 5 === 2){
+            sum += i;
+            console.log(sum);
+        }
+        continue;
+    }
+
++ Đếm các số chia 5 dư 2 từ a đến b
+    var a = 20;
+    var  b = 40;
+    var sum = 0
+    for (i=a;i<=b;i++){
+        if (i % 5 === 2){
+            console.log(i);
+        }
+        continue;
+    }
+
++ In ra màn hình 0, 5 ,10,15, 20, ... 50
+    var a = 0;
+    var b = 50;
+
+    for (i=a;i<=b;i++){
+        if (i % 5 === 0){
+            document.write(i+", ")
+        }
+        continue;
+    }
+
++ In ra  màn hình 10, 9, 8, 7, 6, ... 0
+for (let i = 10; i >= 0; i--) {
+            console.log(i);
+        }
+
++ In ra màn hình 50, 45, 40, .. 0
+    var a = 0;
+    var b = 50;
+
+    for (i=b;i>=a;i--){
+        if (i % 5 === 0){
+            document.write(i+", ")
+            console.log(i)
+        }
+        continue;
+    }
+
++ In ra bảng cửu chương 5.
+for (i=1;i<=10;i++){
+        console.log("5 * "+ i + " = " + (5*i))
+    }
+-->
+
+</body>
+
+<script>
+
+</script>
+
+</html>
